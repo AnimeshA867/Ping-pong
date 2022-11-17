@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ping Pong</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <script src="script.js" type="module" defer></script>
 </head>
 <body>
@@ -13,13 +14,20 @@
         <div id="playerScore">0</div>
         <div id="computerScore">0</div>
     </div>
-    <div class="ball" id="ball"></div>
-    <div class="paddle left" id="player-paddle"></div>
-    <div class="paddle right" id="computer-paddle"></div>
-    <div class="winner" id="winner">
+    <div class="playarea">
+
+        <div class="ball" id="ball"></div>
+        <div class="paddle left" id="player-paddle"></div>
+        <div class="paddle right" id="computer-paddle"></div>
         
     </div>
+</div>
+<div class="winnerA">
+
+    <div class="winner" id="winner">Player Won!
+    </div>
     <div id="again">Play again</div>
+</div>
     <div class="start" id="start">Start</div>
     <div class="start" id="pause">Pause</div>
 
@@ -31,6 +39,13 @@
         <div class="level" id="impossible">Impossible</div>
     </div>
     <div class="counter" id="counter">3</div>
+    <div class="players" id="stylePlay">
+        <div class="cap">Choose your playing style:</div>
+        <div class="modes">
+
+            <div class="mode">Single Player</div><div class="mode">Multiplayer</div>
+        </div>
+    </div>
     <!-- <script src="ball.js" type="module"></script> -->
 </body>
 </html>

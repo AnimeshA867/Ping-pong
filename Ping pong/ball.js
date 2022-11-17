@@ -50,6 +50,7 @@ export default class Ball {
       this.direction = { x: Math.cos(heading), y: Math.sin(heading) };
     }
     this.velocity = INITIAL_VELOCITY;
+    // this.increasedSpeed=
   }
   pause() {
     let tempX=this.x;
